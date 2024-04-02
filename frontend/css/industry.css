@@ -44,16 +44,12 @@ h1.head-1{
   margin: 2rem 0;
 }
 .space{
-  padding: 5px 10px;
-  margin: 2rem 0;
+  padding: .2em 0;
   max-width: 350px;
-  font-size: large;
-  background-color: rgb(255, 255, 255);
-  color: #35AF58;
-  border-radius: 10px;
-  border: 3px solid #35AF58;
 }
-
+.blk-img{
+  width: 50%;
+}
 
 #carouselExample{
   width: 100%;
@@ -73,46 +69,29 @@ h1.head-1{
 }
 
 
-.accordion{
-  width: 500px;
-}
-.accordion-button{
-  font-size: large;
-}
 
 
 table {
-  margin: 4rem 0 0;
+  margin: 2rem;
+  width: 40%;
   font-family: arial, sans-serif;
-}
-th{
-  background-color: rgb(239, 239, 239);
-  color: rgb(98, 98, 98);
-  font-weight: 900;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-}
-th.sp{
-  width: 500px;
 }
 td, th {
   padding: 10px 10px 10px;
-  text-align: center;
-  border: 1px solid #ddd;
+  font-size: large;
+  color: #4d4d4d;
+  border-bottom: 1px solid #737373;
 }
 
-#model tr:nth-child(odd) {
-  background-color: #efefef;
+#model td:nth-child(odd) {
+  background-color: #dfe4df;
 }
 
 .sela{
-  font-size: large;
-  font-weight: 600;
   color: #434343;
   padding: 10px 40px;
 }
 .selb{
-  font-size: large;
   color: #555555;
   padding: 10px 40px;
 }
@@ -124,6 +103,9 @@ td, th {
 ol {
   list-style: none;
   counter-reset: steps;
+}
+ul{
+  padding: 0;
 }
 ol li {
   color: #35AF58;
@@ -142,10 +124,9 @@ ol li {
 
 p{
   font-size: 15px;
-  padding: 0 2rem;
-  text-align: left;
-  letter-spacing: .8px;
-  line-height: 1.6rem;
+  text-align: justify;
+  letter-spacing: .5px;
+  line-height: 1.4rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -174,18 +155,21 @@ p{
     align-items: flex-start;
     margin-top: 0;
   }
+  table{
+    width: 100%;
+  }
+  .sela, .selb{
+    padding: 10px;
+  }
   .space{
     margin: 1rem;
   }
   .mdl-no{
-    width: 100%;
+    width: 90%;
   }
   #carouselExample{
     margin: 0;
     width: 85%;
-  }
-  ul{
-    padding: 0;
   }
   p{
     padding: 1rem;
