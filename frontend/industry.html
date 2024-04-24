@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="css/industry.css">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
@@ -138,31 +141,34 @@
               <li><a class="dropdown-item" href="home.html#ourmission">Our Misson</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About
             </a>
-            <ul class="dropdown-menu">
-              <!-- <li><a class="dropdown-item" href="#">Description</a></li> -->
-              <!-- <li><a class="dropdown-item" href="#">Team</a></li> -->
-              <!-- <li><a class="dropdown-item" href="#">Incubation</a></li> -->
-              <!-- <li><a class="dropdown-item" href="#">Location</a></li> -->
-            </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">
+              Contact Us
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
   <section>
     <div>
-      <h1 class="head-1" data-aos="fade-down">Industrial Air Purifier</h1>
+      <!-- <h1 class="head-1">Industrial Air Purifier</h1> -->
       <div>
         <div class="box">
 
           <div class="clearfix">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Industry</li>
+              </ol>
+            </nav>
             <div class="gallery">
             <div class="previews">
               <a href="#" class="selected" data-full="images/PR1.jpg"><img src="images/PR1sm.jpg" /></a>
@@ -172,6 +178,8 @@
               <a href="#" data-full="images/PR5.jpg"><img src="images/PR5sm.jpg" /></a> 
             </div>
             <div class="full"> 
+              <p class="bst-prc">Best Price</p>
+              <!-- <div class="hrt"></div> -->
             <!-- first image is viewable to start --> 
             <img src="images/PR1.jpg" /> </div>
             </div>
@@ -179,153 +187,264 @@
 
 
           <div class="mdl-no">
-            <h2 class="head-2" data-aos="fade-left">Zielony i-series Air Purifier</h2>
-            <p>High efficiency purifier for large space and makes air fresh and breathable.</p>
+            <h2 class="head-2">Zielony i-series Air Purifier</h2>
+            <p style="padding: 0;">High efficiency purifier for large space and makes air fresh and breathable.</p>
+
+
+            <div class="ctr" style="--percent: 90%">
+              <div class="rating">
+                <div class="star yellow">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="star grey">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+
             <div>
-              <h2 class="head-3" data-aos="fade-left">Exclusive Features</h2>
+              <h2 class="head-3">Exclusive Features</h2>
               <ul>
-                <li class="space" data-aos="">✅16+ pollutants removal</li>
-                <li class="space" data-aos="">✅1st to remove CO2 & CO</li>
-                <li class="space" data-aos="">✅Heating & cooling Feature</li>
-                <li class="space" data-aos="">✅Liquid-Based Filtration Technology </li>
+                <li class="space" >✔️16+ pollutants removal</li>
+                <li class="space" >✔️1st to remove CO2 & CO</li>
+                <li class="space" >✔️Heating & cooling Feature</li>
+                <li class="space" >✔️Liquid-Based Filtration Technology </li>
+                <li class="space" >✔️16+ pollutants removal</li>
+                <li class="space" >✔️1st to remove CO2 & CO</li>
+                <li class="space" >✔️Heating & cooling Feature</li>
+                <li class="space" >✔️Liquid-Based Filtration Technology </li>
+                <li class="space" >✔️16+ pollutants removal</li>
+                <li class="space" >✔️1st to remove CO2 & CO</li>
               </ul>
+            </div>
+            <div class="align">
+              <a href="contact-us.html"><button type="button" style="margin: 2rem;" class="btn btn-lg btn-outline-success">ORDER
+                  NOW</button></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="align">
-        <a href="contact-us.html"><button type="button" style="margin: 0;" class="btn btn-lg btn-outline-success">ORDER
-            NOW</button></a>
-      </div>
+      
 
 
       <div>
         <h2 class="head-1">Model Description</h2>
-        <p>Experience a breath of fresh air like never before with Zielony. Embrace the elegance of our sleek design and
+        <p class="md-para">Experience a breath of fresh air like never before with Zielony. Embrace the elegance of our sleek design and
           indulge in the convenience of user-friendly controls. the ultimate solution for clean and healthy air in
           industrial settings. Designed for industrial purposes, it safeguards workers' health, prevents machinery
           damage, and enhances operational efficiency. Step into a world where clean air reigns supreme with Zielony Air
-          Purifier - your passport to pure bliss</p>
+          Purifier - your passport to pure bliss
+        </p>
         <div class="box">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <table>
-              <th class="sp">SPECIFICATIONS</th>
-            </table>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Touch Operations
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  IOT Connectivity
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Real Time AQI
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                  Dual Functions
-                </button>
-              </h2>
-              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                  Intelligent Air Quality Management
-                </button>
-              </h2>
-              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                  Temperature Humidity Sensor
-                </button>
-              </h2>
-              <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                  Child and Pet Friendly Features
-                </button>
-              </h2>
-              <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"></div>
-              </div>
-            </div>
-          </div>
+          <img class="blk-img" src="images/crd.png" alt="">
+          <img class="blk-img" src="images/cdr4.png" alt="">
+        </div>
+        <div class="box">
+          
+
+          <table id="model">
+            <tr>
+              <th class="table-head" colspan="2">Technical Details :-</th>
+            </tr>
+            <tr>
+              <td class="sela">Colour</td>
+              <td class="selb">White</td>
+            </tr>
+            <tr>
+              <td class="sela">Brand</td>
+              <td class="selb">Honeywell</td>
+            </tr>
+            <tr>
+              <td class="sela">Product Dimensions</td>
+              <td class="selb">15.3D x 31W x 47H Centimeters</td>
+            </tr>
+            <tr>
+              <td class="sela">Floor Area</td>
+              <td class="selb">388 Square Feet</td>
+            </tr>
+            <tr>
+              <td class="sela">Specification Met</td>
+              <td class="selb">HEPA</td>
+            </tr>
+            <tr>
+              <td class="sela">Noise Level</td>
+              <td class="selb"> 32.5 dB </td>
+            </tr>
+            <tr>
+              <td class="sela">Particle Retention Size</td>
+              <td class="selb">0.1 Micron</td>
+            </tr>
+            <tr>
+              <td class="sela">Controller Type</td>
+              <td class="selb">Remote Control</td>
+            </tr>
+            <tr>
+              <td class="sela">Wattage</td>
+              <td class="selb">47Watts</td>
+            </tr>
+            <tr>
+              <td class="sela">Manufacturer</td>
+              <td class="selb">Secure Connection Limite</td>
+            </tr>
+            <tr>
+              <td class="sela">Country of Origin</td>
+              <td class="selb">INDIA</td>
+            </tr>
+            <tr>
+              <td class="sela">Item Model Number</td>
+              <td class="selb">HCX7376/AP/V2</td>
+            </tr>
+            <tr>
+              <td class="sela">ASIN</td>
+              <td class="selb">BC9866BJH788C</td>
+            </tr>
+          </table>
 
 
           <table id="model">
             <tr>
-              <th>MODEL</th>
-              <th>Zielony i-series</th>
+              <th class="table-head" colspan="2">Additional Information :-</th>
             </tr>
             <tr>
-              <td class="sela">Voltage</td>
-              <td class="selb">220V/50-60Hz</td>
+              <td class="sela">UNSPSC Code</td>
+              <td class="selb">40101600  <a style="text-decoration:none; color:rgb(0, 113, 76); "  onMouseOver="this.style.textDecoration='underline'"
+                onMouseOut="this.style.textDecoration='none'" href="">Report an incorrect code</a></td>
             </tr>
             <tr>
-              <td class="sela">Power</td>
-              <td class="selb">520W, Heating 1KW</td>
+              <td class="sela">Packer</td>
+              <td class="selb">Lorem Ipsum is simply dummy text of the printing and typesetting industry. PageMaker including versions of Lorem Ipsum.</td>
             </tr>
             <tr>
-              <td class="sela">CADR</td>
-              <td class="selb">900 CFM</td>
+              <td class="sela">Item Weight</td>
+              <td class="selb">3 kg 840 g</td>
             </tr>
             <tr>
-              <td class="sela">Main-Material</td>
-              <td class="selb">FRP</td>
+              <td class="sela">Net Quantity</td>
+              <td class="selb">4200</td>
             </tr>
             <tr>
-              <td class="sela">Sensor</td>
-              <td class="selb">PM2.5 Infrared Sensor + TEMP & RH Sensor</td>
+              <td class="sela">Included Components</td>
+              <td class="selb">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
             </tr>
             <tr>
-              <td class="sela">Noise</td>
-              <td class="selb"> Less than 70dB(A) </td>
+              <td class="sela">Generic Name</td>
+              <td class="selb"> Air Purifier & Conditioner</td>
             </tr>
             <tr>
-              <td class="sela">Coverage Area</td>
-              <td class="selb">1000 sq feet</td>
+              <td class="sela">Best Sellers Rank</td>
+              <td class="selb">#125 in Home & Industries <br> 
+                #1 in <a style="text-decoration:none; color:rgb(0, 113, 76); "  onMouseOver="this.style.textDecoration='underline'"
+                onMouseOut="this.style.textDecoration='none'" href="">HEPA Air Purifiers</a>
+              </td>
             </tr>
           </table>
         </div>
+        <div>
+          <img class="cdr" src="images/cdr2.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="mobile" style="margin-top: 4rem;">
+        <ol>
+          <div class="row">
+            <img class="canva" src="images/can1.png" alt="">
+            <li class="col">World's first CO2 & CO reducing Air purifier</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can2.png" alt="">
+            <li class="col">Eliminates PM1, PM2.5, PM10, SO2, NO2, TVOCs, Formaldehyde, H2S, CH4,NH3</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can3.png" alt="">
+            <li class="col">Antibacterial Function</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can4.png" alt="">
+            <li class="col">Environment Friendly</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can5.png" alt="">
+            <li class="col">Liquid-based Filtration Technology</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can6.png" alt="">
+            <li class="col">Automatic & Manual modes</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can7.png" alt="">
+            <li class="col">Energy-Efficient Performance</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can8.png" alt="">
+            <li class="col">Intelligent Air Quality Display & Management</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can9.png" alt="">
+            <li class="col">Eliminates Ozone</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can10.png" alt="">
+            <li class="col">Multiple Purification Modes</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can11.png" alt="">
+            <li class="col">Elegant and Modern Design</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can12.png" alt="">
+            <li class="col">User-Friendly Controls</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can13.png" alt="">
+            <li class="col">Whisper-Quiet Operation</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can14.png" alt="">
+            <li class="col">Extensive Warranty and Customer Support</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can15.png" alt="">
+            <li class="col">High CADR (Clean Air Delivery Rate)</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can16.png" alt="">
+            <li class="col">Multi-Speed Fan</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can17.png" alt="">
+            <li class="col">Automatic water filling</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can18.png" alt="">
+            <li class="col">Powerful Air Throw</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can19.png" alt="">
+            <li class="col">Heating & cooling mode</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can20.png" alt="">
+            <li class="col">Six dynamic modes</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can21.png" alt="">
+            <li class="col">Low Maintenance</li>
+          </div>
+          <div class="row">
+            <img class="canva" src="images/can22.png" alt="">
+            <li class="col">Suitable for all weather</li>
+          </div>
+        </ol>
       </div>
 
 
@@ -336,7 +455,7 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img1.jpg" alt="">
+            <img class="card_img" src="images/loogos3.png" alt="">
     
           </div>
     
@@ -363,7 +482,7 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img2.jpg" alt="">
+            <img class="card_img" src="images/loogos4.png" alt="">
     
           </div>
     
@@ -391,7 +510,7 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img3.jpg" alt="">
+            <img class="card_img" src="images/loogos5.png" alt="">
     
           </div>
     
@@ -413,7 +532,7 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img1.jpg" alt="">
+            <img class="card_img" src="images/loogos6.png" alt="">
     
           </div>
     
@@ -439,7 +558,7 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img2.jpg" alt="">
+            <img class="card_img" src="images/loogos7.png" alt="">
     
           </div>
     
@@ -465,7 +584,160 @@
     
           <div class="uniquecards__img">
     
-            <img src="images/img3.jpg" alt="">
+            <img class="card_img" src="images/loogos8.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Eco-friendly</h1>
+    
+            <p>
+              The Zielony air purifiers are designed to reduce the negative impact on the environment through a unique
+              liquid filtering technique.
+            </p>
+    
+          </div>
+    
+    
+        </div>
+
+
+        <div class="uniquecards card1 " data-aos="zoom-in">
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos9.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Pixel Perfect Design</h1>
+    
+            <p>
+              Zielony deliver meticulously crafted digital visuals with exacting precision, ensuring flawless alignment to
+              provide a seamless and polished user experience.
+            </p>
+    
+    
+          </div>
+    
+    
+        </div>
+    
+    
+        <div class="uniquecards card2" data-aos="zoom-in">
+    
+    
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos10.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Saving Power </h1>
+    
+            <p>
+              Our commitment to sustainability drives us to create products that not only 
+              clean the air but also do so efficiently, reducing energy consumption and environmental impact.
+            </p>
+    
+    
+          </div>
+    
+    
+        </div>
+    
+    
+    
+        <div class="uniquecards card3" data-aos="zoom-in">
+    
+    
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos11.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Pure air </h1>
+    
+            <p>
+              Zielony air purifiers provide clean, contaminant-free air through advanced 
+              filtration, promoting health and well-being to enhance comfort and vitality.
+            </p>
+          </div>
+        </div>
+    
+        <div class="uniquecards card4" data-aos="zoom-in">
+    
+    
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos12.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Eco-friendly</h1>
+    
+            <p>
+              The Zielony air purifiers are designed to reduce the negative impact on the environment through a unique
+              liquid filtering technique.
+            </p>
+    
+          </div>
+    
+    
+        </div>
+
+
+        <div class="uniquecards card5" data-aos="zoom-in">
+    
+    
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos13.png" alt="">
+    
+          </div>
+    
+    
+          <div class="uniquecards__info">
+    
+            <h1>Eco-friendly</h1>
+    
+            <p>
+              The Zielony air purifiers are designed to reduce the negative impact on the environment through a unique
+              liquid filtering technique.
+            </p>
+    
+          </div>
+    
+    
+        </div>
+
+
+        <div class="uniquecards card6" data-aos="zoom-in">
+    
+    
+    
+          <div class="uniquecards__img">
+    
+            <img class="card_img" src="images/loogos14.png" alt="">
     
           </div>
     
