@@ -11,7 +11,7 @@
   font-size: 3rem;
   color: #434343;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 0rem;
   font-family: 'Montserrat', sans-serif;
 }
 .md-para{
@@ -104,6 +104,10 @@ table {
 }
 .table-head{
   font-size: x-large;
+}
+.table-head2{
+  font-size: x-large;
+  padding-top: 2.5rem;
 }
 td, th {
   padding: 10px 10px 10px;
