@@ -1,13 +1,13 @@
 {
   "name": "zielony-main-all-responsive",
   "version": "1.0.0",
-  "description": "backend is written by vishnu singh",
+  "description": "backend is written by Dhananjay kumar",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "Vishnu Singh",
+  "author": "Dhananjay kumar",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
