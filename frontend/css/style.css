@@ -49,6 +49,16 @@ body{
     text-decoration: none;
 }
 
+.contact-menu{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.mobile-ico{
+    padding-bottom: 1rem;
+}
+
 .contact-ico {
     margin: 10px;
     height: 25px;
@@ -219,7 +229,7 @@ body{
 }
 
 .slide-btn {
-    width: 100px;
+    width: 30px;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target]{
@@ -234,6 +244,7 @@ body{
 }
 .b-4, .b-5{
     width: 15px;
+    background-color: #000000;
 }
 
 /* PRODUCT RANGE */
