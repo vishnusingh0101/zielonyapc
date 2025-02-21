@@ -16,13 +16,11 @@ app.use(bodyParser.json({extended: false}));
 
 app.use('/user', contactRoute);
 
-app.use((req,res) => {
-    if(req.url == '/'){
-        res.sendFile(path.join(__dirname, `/frontend/home.html`));
-    }else {
-        res.sendFile(path.join(__dirname, `/frontend${req.url}`));
-    }
-})
+app.use(express.static(path.join(__dirname, 'frontend')));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend', 'home.html'));
+});
 
 app.use(errorControl.get404);
 
